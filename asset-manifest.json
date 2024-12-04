@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nasholiver-portfolio/static/css/main.0e03975f.css",
+    "main.js": "/nasholiver-portfolio/static/js/main.e71d3770.js",
+    "static/media/project5.png": "/nasholiver-portfolio/static/media/project5.a1c504a29b5f0397014e.png",
+    "static/media/project6.jpg": "/nasholiver-portfolio/static/media/project6.93321aecbd485b0774b7.jpg",
+    "static/media/project2.jpg": "/nasholiver-portfolio/static/media/project2.7d65802d697651685895.jpg",
+    "static/media/project3.jpg": "/nasholiver-portfolio/static/media/project3.3ffeda24edeb6847bda2.jpg",
+    "static/media/project1.jpg": "/nasholiver-portfolio/static/media/project1.34711d7a32d0a0a0c04e.jpg",
+    "static/media/project4.jpg": "/nasholiver-portfolio/static/media/project4.726f90739b862ac21ca2.jpg",
+    "index.html": "/nasholiver-portfolio/index.html",
+    "main.0e03975f.css.map": "/nasholiver-portfolio/static/css/main.0e03975f.css.map",
+    "main.e71d3770.js.map": "/nasholiver-portfolio/static/js/main.e71d3770.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e03975f.css",
+    "static/js/main.e71d3770.js"
+  ]
+}
