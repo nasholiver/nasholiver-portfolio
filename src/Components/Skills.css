@@ -1,0 +1,63 @@
+/* Scroll Snapping Setup */
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.skills {
+  text-align: center;
+  position: relative;
+  padding: 4rem; /* Increased padding for spacing */
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  overflow: hidden; /* Prevent overflow caused by animation */
+  scroll-snap-align: start; /* Snap this section into view */
+  height: 100vh; /* Full viewport height for snapping */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-title {
+ 
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.skills-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.skill-list {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.skill-card {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+
+/* Scroll Snapping Parent */
+body {
+  scroll-snap-type: y mandatory; /* Enable vertical snap */
+}
